@@ -1,0 +1,5 @@
+docker run -d \
+--name nextcloud \
+-p 8000:80 \
+-v /data/nextcloud:/var/www/html \
+nextcloud
